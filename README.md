@@ -1,3 +1,5 @@
+Yazılım Mimarisi dersi
+
 Bir araç kiralama şirketi, farklı araç tipleri (sedan, SUV, spor araba) sunuyor ve bu araçlar için farklı ödeme seçenekleri (kredi kartı, banka kartı, nakit) kabul ediliyor. Ayrıca, kullanıcıların farklı araç kiralama seçenekleri ve ödeme yöntemleri ile etkileşime geçebileceği basit bir arayüz sağlanıyor.
 
 Kullanılacak Desenler:
