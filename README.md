@@ -1,8 +1,18 @@
-Yazılım Mimarisi dersi
+SENARYO:
 
-Bir araç kiralama şirketi, farklı araç tipleri (sedan, SUV, spor araba) sunuyor ve bu araçlar için farklı ödeme seçenekleri (kredi kartı, banka kartı, nakit) kabul ediliyor. Ayrıca, kullanıcıların farklı araç kiralama seçenekleri ve ödeme yöntemleri ile etkileşime geçebileceği basit bir arayüz sağlanıyor.
 
-Kullanılacak Desenler:
-Facade: Kullanıcıların karmaşık araç kiralama ve ödeme işlemleriyle uğraşmadan, yalnızca bir arayüz üzerinden tüm işlemleri yönetmeleri sağlanacak.
-Abstract Factory: Farklı araç tipleri için fabrikalar oluşturulacak (Sedan, SUV, Spor Araba).
-Strategy: Farklı ödeme yöntemleri (Kredi Kartı, Banka Kartı, Nakit) kullanılacak.
+Bir araç kiralama firması, sedan, SUV ve spor araba gibi farklı araç türlerini müşterilerine sunmaktadır. 
+
+Bu araçlar için kredi kartı, banka kartı ve nakit gibi çeşitli ödeme yöntemleri kabul edilmektedir. 
+
+Şirket, müşterilerin araç kiralama ve ödeme işlemlerini kolayca yönetebileceği basit ve kullanıcı dostu bir arayüz sağlamayı hedeflemektedir.
+
+Bu hedef doğrultusunda, aşağıdaki tasarım desenleri kullanılacaktır:
+
+Facade: Kullanıcıların araç kiralama ve ödeme işlemlerinin detaylarıyla uğraşmasına gerek kalmadan, tüm işlemleri tek bir arayüz üzerinden gerçekleştirebilmesi sağlanacaktır.
+
+
+Abstract Factory: Sedan, SUV ve spor araba gibi farklı araç türleri için fabrikalar oluşturularak esneklik ve modülerlik sağlanacaktır.
+
+
+Strategy: Ödeme işlemlerinde kredi kartı, banka kartı ve nakit gibi farklı yöntemlerin dinamik bir şekilde uygulanabilmesi için kullanılacaktır.
